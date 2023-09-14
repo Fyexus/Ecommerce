@@ -1,0 +1,49 @@
+@media (max-width: 450px) {
+img{
+    max-width: 300px;
+}
+
+.cta{
+    max-width: 400px;
+    background-size: cover;
+}
+
+.Meio{
+    scale: .9;
+    padding: 8rem 0 0 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: white;
+    padding: 14px;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 10px;
+}
+
+.Marcas{
+    margin-top: 50px;
+}
+}

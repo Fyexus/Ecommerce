@@ -9,7 +9,6 @@
 
 .background {
     background-image: url(img/luck.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     width: 100%;
@@ -192,7 +191,7 @@ header {
 .roupa{
     background-color: #c8815f;
     color: #000;
-}
+}v c
 
 .Marcas{
     margin-top: 10rem;
@@ -246,3 +245,5 @@ header {
     background-color: #555;
     color: #fff;
 }
+
+
