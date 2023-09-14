@@ -184,14 +184,65 @@ header {
 
 }
 
-.roupa{
-
+.roupa img{
+    width: 250px;
+    height: auto;
 }
 
+.roupa{
+    background-color: #c8815f;
+    color: #000;
+}
 
-
-
+.Marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
 
 .Marcas img{
-    width: 100px;
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
 }
