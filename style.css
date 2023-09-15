@@ -65,7 +65,7 @@ header {
 
 .Meio {
     padding: 25rem 0 0 9.5rem;
-    line-height: 4rem;
+    line-height: 5rem;
 }
 
 .Meio h1 {
@@ -107,12 +107,16 @@ header {
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 2rem;
+    border-radius: 10px;
+    
 }
 
 .cards img {
     width: 350px;
     height: 350px;
     transition: 0.35s ease;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
 
 }
 
@@ -178,16 +182,7 @@ header {
     text-align: center;
     margin-top: 8rem;
     height: 355px;
-}
-
-.container-roupas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
-    margin-top: 90px;
+    box-shadow: #000;
 }
 
 .container-roupas img {
@@ -201,6 +196,8 @@ header {
 .roupa img {
     width: 290px;
     height: 390px;
+    border-radius: 10px;
+  
 }
 
 .roupa:hover {
@@ -211,6 +208,8 @@ header {
 .roupa {
     background-color: #c8815f;
     color: #000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
 }
 
 .Marcas {
@@ -218,11 +217,14 @@ header {
     cursor: pointer;
     align-items: center;
     text-align: center;
+   
+
 }
 
 .Marcas img {
-    width: 120px;
-    height: 100px;
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
 }
 
 .Marcas img:hover {
@@ -234,7 +236,7 @@ header {
     display: flex;
     gap: 5rem;
     justify-content: space-around;
-    background-color:darkslategrey;
+    background-color:#000000 ;
     padding: 2rem;
     margin-top: 5rem;
     display: grid;
@@ -253,11 +255,13 @@ header {
     color: #ffff;
     padding: 15px 0 0 0;
 }
-.explore{
-    color: #ffff;
-    font-size: 23px;
+.contato1{
+    color: #ffffffa1;
+    font-size: 16px;
     margin-bottom: 1.6rem;
 }
+
+
 
 
 .meio-contato li {
