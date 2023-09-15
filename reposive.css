@@ -1,187 +1,111 @@
 @media (max-width: 600px) {
-img{
-    max-width: 300px;
-    max-height: 400px;
-}
-
-.cta{
-    max-width: 400px;
-    background-size: cover;
-}
-
-.text-cta {
-    padding: 5rem 0 9rem 2rem;
-}
-
-.Meio{
-    scale: .6;
-    padding: 0px 0px 0px 0px;
-    margin-right: 300px;
-    line-height: 4rem;
-    height: 100px;
-}
-.Meio p{
-    display: none;
-}
-
-.Meio button {
-    background-color: #c8815f;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1.3rem;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-left: 0px;
-
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    padding-top: 1rem;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    position: fixed;
-    background: transparent;
-    transition: all .35s ease;
-    background-color: white;
-    padding: 14px;
-}
-
-.logo {
-    font-weight: 500;
-    font-size: 0.7rem;
-    margin-bottom: 20px;
+    img{
+        max-width: 300px;
+        max-height: 400px;
+    }
     
-}
-
-.cabeçalho-link {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 10px;
-    padding: 0 10px 0 0px ;
-}
-
-.background {
-    margin-top: 140px;
-    background-image: url(img/luck.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    margin-bottom: -90px;
-}
-
-.categorias{
-    margin-left: 80px;
-    margin-top: 20px;
-}
-.container-cad-2{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding-top: 2rem;
-    border-radius: 10px;
-    padding: 30px 80px 0 0;
-}
-.seção{
-    margin-left: 60px;
-    margin-top: 20px;
-}
-
-.seção1{
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.Marcas{
-    margin-top: 50px;
-}
-
-.background{
-    height:340px;
-}
-
-.cta{
-    background: url(img/ffffc.png);
-    background-position: center;
-    background-size: cover;
-    margin-left: 7px;
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 5rem;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-    border-radius: 20px;
-
-}
-
-.text-cta h6{
-    font-size: 3.rem;
-    line-height: 1;
-    letter-spacing: .6rem;
-    margin-bottom: 1px;
-} 
-
-
-
-.text-cta{
-    padding: 12rem 0 9rem 1rem;
-    line-height: 4rem;
-}
-
-.estoque {
-
-    text-align: center;
-}
-
-.container-roupas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
-    height: 355px;
-    box-shadow: #000;
-}
-
-.Marcas{
-    margin-top: -40px;
-    cursor: pointer;
-    scale: .9;
-    padding: 2700px 36px 36px 2px;
-    margin-right: 0px;
-    line-height: 3rem;
-}
-
-.contato {
-    display: flex;
-    gap: 5rem;
-    justify-content: space-around;
-    background-color:#000000 ;
-    padding: 3rem;
-    margin-top: -8rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-}
-
-
-
-}
-
-@media (max-width: 1360px){
-
-
-}
+    .cta{
+        max-width: 400px;
+        background-size: cover;
+    }
+    
+    .Meio{
+        scale: .6;
+        padding: 0px 0px 0px 0px;
+        margin-right: 300px;
+        line-height: 4rem;
+    }
+    .Meio p{
+        display: none;
+    }
+    
+    .Meio button {
+        background-color: #c8815f;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 1.3rem;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 0px;
+    
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 1rem;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        position: fixed;
+        background: transparent;
+        transition: all .35s ease;
+        background-color: white;
+        padding: 14px;
+    }
+    
+    .logo {
+        font-weight: 500;
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+    
+    .cabeçalho-link {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .background {
+        margin-top: 140px;
+        background-image: url(img/luck.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 100%;
+        height: 100vh;
+    }
+    
+    
+    
+    .Marcas{
+        margin-top: 50px;
+    }
+    
+    .background{
+        height:350px;
+    }
+    
+    .cta{
+        background: url(img/ffffc.png);
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    
+    .Marcas{
+        margin-top: 5ren;
+        cursor: pointer;
+        scale: .9;
+        padding: 2px 2px 2px 2px;
+        margin-right: 0px;
+        line-height: 3rem;
+    }
+    
+    .Marcas img{
+        width: 180px;
+        height: auto;
+        background-color: aliceblue;
+    }
+    
+    }

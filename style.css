@@ -108,7 +108,9 @@ header {
     gap: 2rem;
     padding-top: 2rem;
     border-radius: 10px;
+    
 }
+
 .cards img {
     width: 350px;
     height: 350px;
@@ -123,11 +125,6 @@ header {
     cursor: pointer;
 }
 
-.seção h1{
-    margin-left: 80px;
-    margin-top: 20px;
-    
-}
 .cta {
     background: url(img/ffffc.png);
     background-position: center;
@@ -263,6 +260,8 @@ header {
     font-size: 16px;
     margin-bottom: 1.6rem;
 }
+
+
 
 
 .meio-contato li {
