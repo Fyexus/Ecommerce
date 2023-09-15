@@ -64,7 +64,7 @@ header {
 }
 
 .Meio {
-    padding: 7rem 0 0 8.5rem;
+    padding: 25rem 0 0 9.5rem;
     line-height: 4rem;
 }
 
@@ -90,18 +90,18 @@ header {
     transform: scaleY(1.2);
 }
 
-.section{
+.section {
     padding-top: 7rem;
 
 }
 
-.section h1{
+.section h1 {
     align-items: center;
     text-align: center;
     font-size: 2rem;
 }
 
-.container-cad-2{
+.container-cad-2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -109,19 +109,19 @@ header {
     padding-top: 2rem;
 }
 
-.cards img{
-    width: 450px;
-    height: 600px;
+.cards img {
+    width: 350px;
+    height: 350px;
     transition: 0.35s ease;
-    
+
 }
 
-.cards img:hover{
-     transform: scale(0.9) translateY(-5px);
-     cursor: pointer;
+.cards img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
 }
 
-.cta{
+.cta {
     background: url(img/ffffc.png);
     background-position: center;
     background-size: cover;
@@ -132,118 +132,147 @@ header {
     margin-top: 5rem;
 }
 
-.text-cta h4{
-    font-size: 3.3rem;
-	line-height: 1.2;
-	letter-spacing: .6rem;
-	margin-bottom: 30px;
+.text-cta{
+    padding: 5rem 0 9rem 19rem;
+    line-height: 4rem;
 }
 
-.text-cta a{
+
+
+.text-cta h4 {
+    font-size: 3.3rem;
+    line-height: 1.2;
+    letter-spacing: .6rem;
+    margin-bottom: 30px;
+   
+}
+
+.text-cta a {
     background-color: #c8815f;
     padding: 1rem 3rem 1rem 3rem;
     border: none;
     border-radius: 5px;
     color: #fff;
-   font-size: 1rem;
-   cursor: pointer;
-   transition: 0.3s;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    
 }
 
-.text-cta a:hover{
+.text-cta a:hover {
     background-color: #111;
     transform: scaleY(1.2);
 }
 
-.container-roupas{
+.estoque {
+    padding: 5rem 0 0rem 1rem;
+    
+}
+
+.container-roupas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 8rem;
+    height: 355px;
 }
 
-.container-roupas{
+.container-roupas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 90px;
 }
 
-
-.container-roupas img{
+.container-roupas img {
     transform: scale(0.9) translateY(5px);
     cursor: pointer;
     transition: 0.3s;
+    
 
 }
 
-.roupa img{
-    width: 250px;
-    height: auto;
+.roupa img {
+    width: 290px;
+    height: 390px;
 }
 
-.roupa{
+.roupa:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.roupa {
     background-color: #c8815f;
     color: #000;
-}v c
+}
 
-.Marcas{
-    margin-top: 10rem;
+.Marcas {
+    margin-top: 200px;
     cursor: pointer;
     align-items: center;
     text-align: center;
 }
 
-.Marcas img{
-    width: 180px;
-    height: auto;
-    background-color: aliceblue;
+.Marcas img {
+    width: 120px;
+    height: 100px;
 }
 
-#Contato{
+.Marcas img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.contato {
     display: flex;
     gap: 5rem;
     justify-content: space-around;
-    background-color: #111;
-    padding: 8rem;
+    background-color:darkslategrey;
+    padding: 2rem;
     margin-top: 5rem;
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
-.meio-contato h3{
-    color: #fff;
+.meio-contato h3 {
+    color: #ffff;
     font-size: 23px;
     margin-bottom: 1.6rem;
 }
 
-.meio-contato h5{
+.meio-contato h5 {
     font-size: 15px;
     font-weight: 600;
-    color: #555;
+    color: #ffff;
+    padding: 15px 0 0 0;
+}
+.explore{
+    color: #ffff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
 }
 
-.meio-contato li{
+
+.meio-contato li {
     margin-bottom: 15px;
 }
 
-.meio-contato li a{
+.meio-contato li a {
     display: block;
     color: #555;
     font-weight: 600;
     transition: all .35s ease;
 }
 
-.last-text{
+.last-text {
     text-align: center;
     background-color: #555;
     color: #fff;
 }
-
-
