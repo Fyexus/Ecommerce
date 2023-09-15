@@ -125,6 +125,9 @@ header {
     cursor: pointer;
 }
 
+.seção{
+    margin-left: 80px;
+}
 
 .cta {
     background: url(img/ffffc.png);
