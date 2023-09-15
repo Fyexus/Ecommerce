@@ -133,10 +133,15 @@
         width: 100%;
         display: flex;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 2rem;
+        
         box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
         border-radius: 20px;
     
+    }
+
+    .btn{
+        
     }
     
     .text-cta h6{
@@ -149,7 +154,7 @@
     
     
     .text-cta{
-        padding: 12rem 0 9rem 1rem;
+        padding: 12rem 0 14rem 1rem;
         line-height: 4rem;
     }
     
